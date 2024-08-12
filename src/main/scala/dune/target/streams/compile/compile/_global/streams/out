@@ -1,0 +1,68 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:10:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.Includes._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:11:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.animation.PauseTransition[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:12:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:13:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.application.JFXApp.PrimaryStage[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:14:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.Scene[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:15:8: not found: object scalafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.util.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:17:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{FXMLLoader, NoDependencyResolver}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:20:21: not found: type JFXApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject Main extends JFXApp {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:24:20: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:24:45: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:31:3: not found: value stage[0m
+[0m[[0m[31merror[0m] [0m[0m  stage = new PrimaryStage {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:50:22: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:50:44: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:58:9: not found: type PauseTransition[0m
+[0m[[0m[31merror[0m] [0m[0m    new PauseTransition(Duration(1500)){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:59:7: not found: value onFinished[0m
+[0m[[0m[31merror[0m] [0m[0m      onFinished = handle {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:62:7: value play is not a member of <error>[0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value play'?[0m
+[0m[[0m[31merror[0m] [0m[0m    }.play()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:70:22: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:70:44: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:84:22: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:84:44: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:98:22: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\user\Desktop\Others\Documents\University\Semester 6\Object-Oriented Programming\ProjectDune_18006932\DuneOOP\src\main\scala\dune\Main.scala:98:44: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m    val loader = new FXMLLoader(viewAsset, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m22 errors found[0m

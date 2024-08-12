@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="dune.controller.LoadingScreenController">
+    <children>
+        <FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                  prefHeight="600.0" prefWidth="900.0">
+            <children>
+                <VBox prefHeight="400.0" prefWidth="600.0">
+                    <children>
+                        <AnchorPane prefHeight="400.0" prefWidth="600.0">
+                            <children>
+                                <ImageView fx:id="loadingBackground" fitHeight="600.0" fitWidth="900.0"
+                                           pickOnBounds="true">
+                                </ImageView>
+                                <ProgressIndicator layoutX="424.0" layoutY="273.0" scaleX="1.5" scaleY="1.5">
+                                    <cursor>
+                                        <Cursor fx:constant="NONE"/>
+                                    </cursor>
+                                </ProgressIndicator>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="332.0" layoutY="522.0"
+                                       scaleX="1.2" scaleY="1.2" text="Loading Dune..." textFill="WHITE">
+                                    <font>
+                                        <Font name="Monospaced Bold" size="27.0"/>
+                                    </font>
+                                    <effect>
+                                        <DropShadow/>
+                                    </effect>
+                                </Label>
+                            </children>
+                            <effect>
+                                <InnerShadow choke="0.45" height="255.0" radius="63.25" width="0.0"/>
+                            </effect>
+                        </AnchorPane>
+                    </children>
+                    <effect>
+                        <InnerShadow choke="0.25" height="177.5" radius="68.875" width="100.0"/>
+                    </effect>
+                </VBox>
+            </children>
+        </FlowPane>
+    </children>
+</AnchorPane>

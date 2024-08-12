@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="dune.controller.TutorialController">
+    <children>
+        <Pane prefHeight="600.0" prefWidth="900.0">
+            <children>
+                <ImageView fx:id="tutorialBackground" fitHeight="600.0" fitWidth="900.0" pickOnBounds="true">
+                </ImageView>
+            </children>
+        </Pane>
+        <Button alignment="CENTER" layoutX="360.0" layoutY="20.0" mnemonicParsing="false" onAction="#goReturn"
+                prefHeight="44.0" prefWidth="140.0" style="-fx-background-color: white; -fx-background-radius: 100;"
+                text="Return to Main Menu" textAlignment="CENTER" textFill="BLACK" wrapText="true">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="dune.controller.MainMenuController">
+    <children>
+        <Pane prefHeight="600.0" prefWidth="900.0">
+            <children>
+                <ImageView fx:id="menuBackground" fitHeight="600.0" fitWidth="900.0" pickOnBounds="true">
+                    <effect>
+                        <GaussianBlur radius="1.5"/>
+                    </effect>
+                </ImageView>
+                <VBox prefHeight="600.0" prefWidth="900.0">
+                    <children>
+                        <AnchorPane prefHeight="600.0" prefWidth="900.0" VBox.vgrow="NEVER">
+                            <children>
+                                <ButtonBar layoutX="307.0" layoutY="454.0" maxHeight="100.0" maxWidth="720.0"
+                                           prefHeight="40.0" prefWidth="200.0" scaleX="1.5" scaleY="1.5">
+                                    <buttons>
+                                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#goBattle"
+                                                style="-fx-background-color: black;" text="Battle" textFill="#f79909">
+                                            <cursor>
+                                                <Cursor fx:constant="HAND"/>
+                                            </cursor>
+                                            <font>
+                                                <Font name="Gill Sans MT" size="14.0"/>
+                                            </font>
+                                        </Button>
+                                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#goTutorial"
+                                                style="-fx-background-color: black;" text="Tutorial" textFill="#f79909">
+                                            <cursor>
+                                                <Cursor fx:constant="HAND"/>
+                                            </cursor>
+                                            <font>
+                                                <Font name="Gill Sans MT" size="14.0"/>
+                                            </font>
+                                        </Button>
+                                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#goExit"
+                                                prefHeight="49.0" prefWidth="75.0" style="-fx-background-color: black;"
+                                                text="Exit" textFill="#f79909">
+                                            <cursor>
+                                                <Cursor fx:constant="HAND"/>
+                                            </cursor>
+                                            <font>
+                                                <Font name="Gill Sans MT" size="14.0"/>
+                                            </font>
+                                        </Button>
+                                    </buttons>
+                                    <padding>
+                                        <Insets bottom="10.0" right="22.0" top="10.0"/>
+                                    </padding>
+                                </ButtonBar>
+                                <ImageView fx:id="menuLogo" cache="true" fitHeight="150.0" fitWidth="507.0"
+                                           layoutX="275.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true"/>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                    <opaqueInsets>
+                        <Insets/>
+                    </opaqueInsets>
+                </VBox>
+            </children>
+            <effect>
+            </effect>
+        </Pane>
+    </children>
+</AnchorPane>
