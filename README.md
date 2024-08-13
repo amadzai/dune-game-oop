@@ -58,17 +58,27 @@ and a Model-View-Controller (MVC) as the design pattern.
 ## Usage :joystick:
 1. After running, use the Main Menu to navigate to either the Battle, or the Tutorial to learn more about Dune.
 
-<img src="screenshots/MainMenu.png" alt="Main Menu screen of Dune" width="582">
+<p style="text-align: center;">
+  <img src="screenshots/MainMenu.png" alt="Main Menu screen of Dune" width="672">
+</p>
 
 2. Each player is randomly generated an army of 3 Heroes, each with their own Hero Type, as seen here in the Tutorial.
 
-<img src="screenshots/TutorialPage.png" alt="Tutorial Page of Dune" width="582">
+<p style="text-align: center;">
+  <img src="screenshots/TutorialPage.png" alt="Tutorial Page of Dune" width="672">
+</p>
 
 3. When in Battle, attack or debuff the opponent, buff your own Hero, or swap Heroes to have a higher Type Effectiveness.
 
-<img src="screenshots/BattlePage.png" alt="Battle Page of Dune" width="582">
+<p style="text-align: center;">
+  <img src="screenshots/BattlePage.png" alt="Battle Page of Dune" width="672">
+</p>
 
 4. Defeat all 3 of the opponent's Heroes to be victorious. Return to the Main Menu to begin a new battle.
 
-<img src="screenshots/Victory.png" alt="Battle Page Victory of Dune" width="582">
+<p style="text-align: center;">
+  <img src="screenshots/Victory.png" alt="Battle Page Victory of Dune" width="672">
+</p>
+
+
 
