@@ -320,7 +320,7 @@ abstract class Brawler extends Hero with Melee {
 // Abstract class for the specific Caster hero that extend the Hero abstract class with the Magic trait (mixin).
 abstract class Caster extends Hero with Magic {
   // Value to store the title (name) of the Hero.
-  val name = "Caster"
+  val name = " "
   // Value to store the total health points of the Hero.
   val totalHealthPoints = 45
   // Variable to store the current health points (HP) of the Hero.
