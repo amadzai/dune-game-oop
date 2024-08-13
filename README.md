@@ -74,7 +74,8 @@ and a Model-View-Controller (MVC) as the design pattern.
 ## FAQ :question:
 1. When I sbt run, I encounter a missing library error, with an exception in thread "JavaFX Application Thread".
 - This is an issue when downloading and installing an LTS release of JDK (11 in this case). These versions may not have the necessary JavaFX libraries installed. 
-Either install from the recommended JDK link above, or manually add the missing libraries into your JDK bin folder.
+Either install from the recommended JDK link above, or manually add the missing libraries into your JDK bin folder. 
+(Possible missing libraries: glib-lite.dll, gstreamer-lite.dll, jfxmedia.dll, fxplugins.dll)
 
 2. Why can't I expand the game window into fullscreen?
 - The current version of the project has not implemented dynamic window sizes as well as fullscreen, will be looking to add this in the future :).
