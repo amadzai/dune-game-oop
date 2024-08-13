@@ -15,7 +15,7 @@ and a Model-View-Controller (MVC) as the design pattern.
 #### Prerequisites
 
 - SBT: Version 1.8.0+
-- JDK: Version 11 ([highly recommended: Liberica Full JDK 11 LTS, which includes JavaFX 16](https://bell-sw.com/pages/downloads/#jdk-11-lts))
+- JDK: Version 11 (<a href="https://bell-sw.com/pages/downloads/#jdk-11-lts" target="_blank">highly recommended: Liberica Full JDK 11 LTS, which includes JavaFX 16</a>)
 - JavaFX: Version 16
 
 #### Steps
