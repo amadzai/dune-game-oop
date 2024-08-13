@@ -8,8 +8,7 @@ and a Model-View-Controller (MVC) as the design pattern.
 ## Table of Contents :scroll:
 - [Installation](#installation-hammer_and_wrench)
 - [Usage](#usage-joystick)
-- [FAQ](#faq)
-- [Contributing](#contributing)
+- [FAQ](#faq-question)
 
 ## Installation :hammer_and_wrench:
 ### Prerequisites
@@ -71,3 +70,11 @@ and a Model-View-Controller (MVC) as the design pattern.
 4. Defeat all 3 of the opponent's Heroes to be victorious. Return to the Main Menu to begin a new battle.
 
 <img src="screenshots/Victory.png" alt="Battle Page Victory of Dune">
+
+## FAQ :question:
+1. When I sbt run, I encounter a missing library error, with an exception in thread "JavaFX Application Thread".
+- This is an issue when downloading and installing an LTS release of JDK (11 in this case). These versions may not have the necessary JavaFX libraries installed. 
+Either install from the recommended JDK link above, or manually add the missing libraries into your JDK bin folder.
+
+2. Why can't I expand the game window into fullscreen?
+- The current version of the project has not implemented dynamic window sizes as well as fullscreen, will be looking to add this in the future :).
