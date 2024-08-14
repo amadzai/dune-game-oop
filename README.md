@@ -3,7 +3,7 @@ Dune is a turn-based fighting game inspired by classics like early Final Fantasy
 The theme draws from Frank Herbert's Dune, while the characters and artwork are a frankenstein of Dota 2, Cyberpunk 2077, and other sources.
 
 This project served as a hands-on way to practice and showcase foundation Object-Oriented Programming concepts, using Scala as the language, 
-and a Model-View-Controller (MVC) as the design pattern.
+and Model-View-Controller (MVC) as the design pattern.
 
 ## Table of Contents :scroll:
 - [Installation](#installation-hammer_and_wrench)
@@ -19,7 +19,7 @@ and a Model-View-Controller (MVC) as the design pattern.
 ### Steps
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/amadzai/dune-game-oop
+    git clone https://github.com/amadzai/dune-game-oop.git
     ```
 
    *or, if using SSH:*
