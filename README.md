@@ -19,12 +19,12 @@ and Model-View-Controller (MVC) as the design pattern.
 ### Steps
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/amadzai/dune-game-oop.git
+    git clone git@github.com:amadzai/dune-game-oop.git
     ```
 
-   *or, if using SSH:*
+   *or, if using HTTPS:*
     ```bash
-    git clone git@github.com:amadzai/dune-game-oop.git
+    https://github.com/amadzai/dune-game-oop.git
     ```
 
 2. **Navigate to the project directory**:
